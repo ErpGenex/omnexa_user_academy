@@ -1,0 +1,20 @@
+{
+ "content": null,
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "module": "Omnexa User Academy",
+ "name": "erpgenex-user-academy",
+ "page_name": "erpgenex-user-academy",
+ "roles": [
+  {
+   "doctype": "Has Role",
+   "role": "All"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "ErpGenEx User Academy"
+}

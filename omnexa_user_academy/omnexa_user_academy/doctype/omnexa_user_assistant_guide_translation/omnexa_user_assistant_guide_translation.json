@@ -1,0 +1,31 @@
+{
+ "actions": [],
+ "creation": "2026-04-22 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": ["language_code", "is_default", "title", "short_help", "detailed_help", "conditions", "steps"],
+ "fields": [
+  {"default": "en", "fieldname": "language_code", "fieldtype": "Select", "in_list_view": 1, "label": "Language Code", "options": "en\nar", "reqd": 1},
+  {"default": "0", "fieldname": "is_default", "fieldtype": "Check", "label": "Is Default"},
+  {"fieldname": "title", "fieldtype": "Data", "in_list_view": 1, "label": "Title", "reqd": 1},
+  {"fieldname": "short_help", "fieldtype": "Small Text", "label": "Short Help", "reqd": 1},
+  {"fieldname": "detailed_help", "fieldtype": "Text Editor", "label": "Detailed Help"},
+  {"fieldname": "conditions", "fieldtype": "Text Editor", "label": "Conditions"},
+  {"fieldname": "steps", "fieldtype": "Text Editor", "label": "Steps"}
+ ],
+ "grid_page_length": 20,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-04-22 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Omnexa User Academy",
+ "name": "Omnexa User Assistant Guide Translation",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 0,
+ "sort_field": "idx",
+ "sort_order": "ASC",
+ "states": []
+}

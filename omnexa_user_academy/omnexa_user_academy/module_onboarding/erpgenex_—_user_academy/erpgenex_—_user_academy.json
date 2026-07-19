@@ -1,0 +1,32 @@
+{
+ "allow_roles": [
+  {
+   "role": "Desk User"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "creation": "2026-04-22 03:29:21.776809",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "https://frappe.io/framework",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2026-04-22 04:17:23.559529",
+ "modified_by": "Administrator",
+ "module": "Omnexa User Academy",
+ "name": "ERPGENEX \u2014 User Academy",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "ERPGENEX-WS-user_academy-01-page-user_academy"
+  },
+  {
+   "step": "ERPGENEX-WS-user_academy-home"
+  }
+ ],
+ "subtitle": "Guided setup for this workspace.",
+ "success_message": "You are ready to work in User Academy.",
+ "title": "ERPGENEX \u00b7 User Academy"
+}
