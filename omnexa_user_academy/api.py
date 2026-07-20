@@ -41,7 +41,8 @@ def get_user_assistant_guides(context_type=None, reference_doctype=None, workspa
 	if not frappe.db.exists("DocType", "Omnexa User Assistant Guide"):
 		return []
 
-	filters = {"is_active": 1}
+	filters = {"is_active": 1
+	}
 	if context_type:
 		filters["context_type"] = context_type
 
@@ -79,13 +80,15 @@ def get_user_assistant_guides(context_type=None, reference_doctype=None, workspa
 
 		result.append(
 			{
-				"id": f"db-{doc.name}",
+				"id": f"db-{doc.name
+	}",
 				"t": tr.title,
-				"k": f"{doc.context_type} {doc.operation_type or ''} {doc.reference_doctype or ''}",
+				"k": f"{doc.context_type} {doc.operation_type or ''} {doc.reference_doctype or ''
+	}",
 				"b": tr.short_help,
 				"d": tr.detailed_help or tr.conditions or "",
-				"steps": _as_steps(tr.steps),
-			}
+				"steps": _as_steps(tr.steps)
+	}
 		)
 
 	return result
